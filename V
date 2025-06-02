@@ -1,0 +1,108 @@
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Dimetrodon"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Oviraptor"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Mussaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Pachycephalosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Styracosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Quetzalcoatlus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Microraptor"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Ankylosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Carnotaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Parasaurolophus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Stegosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Triceratops"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Therizinosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Tyrannosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Brachiosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Spinosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Diplodocus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
+local args = {
+    [1] = "BuyWithCoins",
+    [2] = "Apatosaurus"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PropertyMrgRemoteEvent:FireServer(unpack(args))
