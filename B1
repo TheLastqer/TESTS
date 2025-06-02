@@ -40,16 +40,14 @@ local MainWindow = Rayfield:CreateWindow({
 local Tab = MainWindow:CreateTab("Main", 4483362458) -- Title, Image
 
 
-local Toggle = Tab:CreateToggle({
-    Name = "Toggle Example",
+  local Toggle = Tab:CreateToggle("FRRE", function(no)
+    name = "Toggle Example",
     CurrentValue = false,
-    Flag = "Toggle1",
-    Callback = function(Value)
-        running = Value
-        if running then
-            -- Start the loop in a new thread
-            game:GetService("ReplicatedStorage").Packages.Knit.Services.CashService.RF.SellInventory:InvokeServer()
-            spawn(loopFunction)
-        end
-    end,
-})
+    Flag = "Toggle2",
+    _G.GetWins = no
+    while _G.GetWins== true do
+        wait() 
+    
+
+    end
+    end)
