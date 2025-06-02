@@ -40,16 +40,12 @@ local MainWindow = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("Main", 4483362458) -- Title, Image
 
 
-local Button = Tab:CreateButton({
-   Name = "Button Example",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-   end,
-})
-
-
-
-local Button Tab:CreateToggle("INF ALL", function(no)
+local Toggle = MainTab:CreateToggle({
+   Name = "Toggle Example",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+     Tab:CreateToggle("INF ALL", function(no)
     _G.GetWins = no
     while _G.GetWins== true do
         wait() 
@@ -57,3 +53,6 @@ local Button Tab:CreateToggle("INF ALL", function(no)
 
     end
     end)
+   
+   end,
+})
