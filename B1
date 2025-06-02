@@ -46,3 +46,12 @@ local Button = Tab:CreateButton({
    -- The function that takes place when the button is pressed
    end,
 })
+
+Tab:CreateToggle("INF ALL", function(no)
+    _G.GetWins = no
+    while _G.GetWins== true do
+        wait() 
+    
+
+    end
+    end)
