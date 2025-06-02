@@ -48,6 +48,7 @@ local Toggle = Tab:CreateToggle({
         running = Value
         if running then
             -- Start the loop in a new thread
+            game:GetService("ReplicatedStorage").Packages.Knit.Services.CashService.RF.SellInventory:InvokeServer()
             spawn(loopFunction)
         end
     end,
