@@ -47,7 +47,9 @@ local Button = Tab:CreateButton({
    end,
 })
 
-Tab:CreateToggle("INF ALL", function(no)
+
+
+local Button Tab:CreateToggle("INF ALL", function(no)
     _G.GetWins = no
     while _G.GetWins== true do
         wait() 
